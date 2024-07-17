@@ -1,0 +1,12 @@
+- route:
+    id: route-1522
+    nodePrefixId: route-10c
+    from:
+      id: from-2315
+      uri: kamelet:timer-source
+      parameters:
+        message: das
+      steps:
+        - log:
+            id: log-87be
+            message: ${body}
